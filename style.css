@@ -23,21 +23,22 @@ scroll-padding-top: 9rem;
 scroll-behavior: smooth;
 }
 
-html::-webkit-scrollbar{
+/* html::-webkit-scrollbar{
 width: .8rem;
-}
+} */
 
-html::-webkit-scrollbar-track{
+/* html::-webkit-scrollbar-track{
 background: transparent;
-}
+} */
 
-html::-webkit-scrollbar-track{
+/* html::-webkit-scrollbar-track{
 background: #fff;
 border-radius: 5rem;
-}
+} */
 
 body{
-background: var(--bg);
+/* background: var(--bg); */
+background: #fff;
 }
 
 section{
@@ -197,6 +198,7 @@ align-items: center;
 background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./images/img001.jpg) no-repeat;
 background-size: cover;
 background-position: center;
+background-attachment: fixed;
 
 }
 
@@ -232,6 +234,56 @@ color: #eee;
         background-color: #ddd;
         color: black;
     }
+
+    .about{
+        background:  #f9f9f9 !important;
+
+    }
+
+    .conatinera{
+        margin: 0px auto;
+        padding: 40px 0px;
+        width: 80%;
+    }
+
+   .about .containera h1{
+        text-align: center;
+        color: gold;
+        text-transform: uppercase;
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem;
+        font-size: 5rem;
+        }
+
+        .about .containera p{
+            line-height: 30px;
+            font-size:22px;
+            color: #616161
+        }
+    
+        .about .containera .center{
+            padding-top: 10px;
+            text-align: center;
+            }
+              
+
+.about .containera .btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    background-color:black;
+    color: #ddd;
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 0 auto;
+  
+    }
+
+
+
+
+
 
 
 
@@ -298,8 +350,16 @@ font-size: 4.5rem;
 }
 
 .home .content p{
-font-size: 1.5rem;
+font-size: 2rem;
 }
+
+.about .containera h1{
+    font-size: 4.5rem;
+    }
+
+    .about .containera p{
+        font-size:2rem;
+    }
 
 }
 
