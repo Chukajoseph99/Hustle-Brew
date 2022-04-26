@@ -607,6 +607,35 @@ transition: .3s linear;
     color: #fff;
 }
 
+.footer{
+    background:#f9f9f9;
+    color:#000;
+    /* padding:1rem 1rem; */
+    text-align: center;
+    /* width:80%;
+    margin: 0 auto; */
+    font-size:18px;
+    color:gray;
+}
+
+.footer p {
+color: #000 !important;
+}
+
+.footer a{
+    color:#333;
+}
+
+.footer a:hover{
+    color: gold;
+}
+
+
+
+
+
+
+
 
 
 /* media queries */
